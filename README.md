@@ -1,6 +1,8 @@
 # MKR2 - mr__Kuko's Racing 2
 ## Requirements
 * [es_extended](https://github.com/esx-framework/es_extended/tree/v1-final)
+## Contains ESX Wrapper by KillStr3aK
+* [esx wrapper](https://github.com/KillStr3aK/esx-wrapper)
 
 ## How to install:
 - Download https://github.com/mrkuko/MKR/releases
@@ -58,7 +60,7 @@
 ```
 - and don't forgot to add "," after end of previous race, it's a json :D
 ##Explanation
-```json
+```lua
 {
       "name": "Name your race",     --name of your race
       "pos": {                      --position of enter-point
