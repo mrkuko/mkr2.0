@@ -5,7 +5,7 @@
 * [esx wrapper](https://github.com/KillStr3aK/esx-wrapper)
 
 ## How to install:
-- Download https://github.com/mrkuko/MKR/releases
+- Download https://github.com/mrkuko/mkr2.0/releases
 - extract to your directory and in type **start MKR** in your server.cfg
 
 ### Discription:
