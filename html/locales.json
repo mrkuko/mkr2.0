@@ -1,0 +1,41 @@
+{
+	"language" : "cs",
+	"en" : {
+		"commands" : "commands",
+		"checkpoint" : "checkpoint",
+		"enter_heading" : "Prepare for the race!",
+		"enter_desription" : "Press ENTER to continue...",
+		"go" : "Go!",
+		"end_heading" : "Race Finished!",
+		"end_time" : "Total time:",
+		"rolling_press" : "Press enter to continue...",
+		"rolling_route" : "route",
+		"rolling_finished" : "finished",
+		"rolling_reward" : "reward",
+		"rolling_added" : "was added to your pocket",
+		"rolling_key_enter" : "finished",
+		"results" : "Time results: ",
+		"tab_player" : "Player",
+		"tab_time" : "Time",
+		"tab_date" : "Date"
+	},
+	"cs" : {
+		"commands" : "prikazi",
+		"checkpoint" : "point",
+		"enter_heading" : "Priprav se!",
+		"enter_desription" : "Stiskny ENTER pro pokracovani",
+		"go" : "Jed!",
+		"end_heading" : "Zavod je u konce!",
+		"end_time" : "Tvuj cas:",
+		"rolling_press" : "Stiskny enter pro pokracovani",
+		"rolling_route" : "Trasa",
+		"rolling_finished" : "dokoncena",
+		"rolling_reward" : "odmena",
+		"rolling_added" : "pristala na tvuj ucet",
+		"rolling_key_enter" : "co je to?",
+		"results" : "Vysledky pro: ",
+		"tab_player" : "Hrac",
+		"tab_time" : "Cas",
+		"tab_date" : "Datum"
+	}
+}

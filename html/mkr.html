@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body id = mybody>
+    <div id="maincontainer" style="display: none;">
+        <div class = "containershow">
+            <div id="mkrtab">
+                <h3 id = "heading">PLACEHOLDER</h3>
+                <p class = "text" id = "checkpoints"></p>
+                <p class = "text" id = "time"></p>
+                <p class = "text" id = "commandList"></p>
+            </div>
+            <img id="img" src="stuff/background.png">
+        </div>
+    </div>
+    <div id="enterRace" style="display: none;">
+        <div id="enter1"><h1></h1></div>
+        <div id="line"></div>
+        <div id="enter2"><h3></h3></div>
+    </div>
+    <div id="exitRace" style="display: none;">
+        <div id="exit1"><h1></h1></div>
+        <div id="line2"></div>
+        <div id="exit2"><h3></h3></div>
+        <div id="exit3" class="scroll"><h3><nobr></nobr></h3></div>
+    </div>
+    <!--<ol id = "results" style="display: none;">
+        <h3>Top score for race xyz</h3>
+        <li id = player0></li>
+        <li id = player1></li>
+        <li id = player2></li>
+        <li id = player3></li>
+        <li id = player4></li>
+        <li id = player5></li>
+        <li id = player6></li>
+        <li id = player7></li>
+        <li id = player8></li>
+        <li id = player9></li>
+    </ol>
+    -->
+    <!--<div id="results" style="display: none;">
+        <p>Table with colgroup</p>
+        <table>
+            <colgroup span="4"></colgroup>
+            <tr>
+                <th>Countries</th>
+                <th>Capitals</th>
+                <th>Population</th>
+                <th>Language</th>
+            </tr>
+            <tr>
+                <td>USA</td>
+                <td>Washington, D.C.</td>
+                <td>309 million</td>
+                <td>English</td>
+            </tr>
+            <tr>
+                <td>Sweden</td>
+                <td>Stockholm</td>
+                <td>9 million</td>
+                <td>Swedish</td>
+            </tr>
+        </table>
+    </div>
+-->
+    <table id="results" style="display: none;">
+        <caption id = tabCaption>Time results: Test</caption>
+        <colgroup>
+            <col span="1" style="width: 3%;">
+            <col span="1" style="width: 40%;">
+            <col span="1" style="width: 27%;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th style="background-color: rgb(14, 21, 33); text-align: center; border-radius: 5px;">#</th>
+                <th>Player</th>
+                <th>Time</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr id = tr0>
+                <td>1.</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr id = tr1>
+                <td>2.</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr id = tr2>
+                <td>3.</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr id = tr3>
+                <td>4.</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr id = tr4>
+                <td>5.</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr id = tr5>
+                <td>6.</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr id = tr6>
+                <td>7.</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr id = tr7>
+                <td>8.</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr id = tr8>
+                <td>9.</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr id = tr9>
+                <td>10.</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <script src="jquery-ui.min.js" type="text/javascript"></script>
+    <script src="nui://mkr/locales/locale.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
