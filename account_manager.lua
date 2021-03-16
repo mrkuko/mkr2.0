@@ -16,7 +16,7 @@ AddEventHandler('mkr:registry', function(amount, char, text)
             amount = base
         end
         xPlayer.removeAccountMoney('bank', amount)
-        TriggerClientEvent('mkr:showAdvancedNotification', _source, "Race Entry lua", text..amount..'$', char)
+        TriggerClientEvent('mkr:showAdvancedNotification', _source, "Race Entry", text..amount..'$', char)
         TriggerClientEvent('mkr:enterrace', _source)
     end
 end)
@@ -26,5 +26,5 @@ AddEventHandler('mkr:giveMoney', function(amount, char, text)
     local _source = source
     local xPlayer = ESX.GetPlayerFromId(_source)
     xPlayer.addAccountMoney('bank', amount)
-    TriggerClientEvent('mkr:showAdvancedNotification', _source, "Race Reward lua", text.."~n~MONEY: ~g~"..amount..'$', char)
+    TriggerClientEvent('mkr:showAdvancedNotification', _source, "Race Reward", text.."~n~MONEY: ~g~"..amount..'$', char)
 end)
