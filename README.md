@@ -1,8 +1,7 @@
 # MKR2 - mr__Kuko's Racing 2
 ## Requirements
+* in case you don't want to change code in **account_manager.lua** to make it your own bank system friendly you will need this
 * [es_extended](https://github.com/esx-framework/es_extended/tree/v1-final)
-## Contains ESX Wrapper by KillStr3aK
-* [esx wrapper](https://github.com/KillStr3aK/esx-wrapper)
 
 ## How to install:
 - Download https://github.com/mrkuko/mkr2.0/releases
