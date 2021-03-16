@@ -3,23 +3,18 @@ game 'gta5'
 
 author 'mr__Kuko'
 description 'custom race events'
-version 'v0.9dll beta'
-dependencies{
-    'es_extended'
-}
+version 'v0.8noESX'
 
 client_scripts{
     'mkr_client.net.dll'
 }
 server_scripts{
-    '@es_extended/locale.lua',
-    'mkr_server.net.dll'
+    'mkr_server.net.dll',
+    'account_manager.lua'
 }
 ui_page 'html/mkr.html'
 files{
     'Newtonsoft.Json.dll',
-    'Nexd.ESX.Server.dll',
-    'Nexd.ESX.Shared.dll',
     'html/mkr.html',
     'html/*.js',
     'html/style.css',

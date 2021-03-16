@@ -19,6 +19,8 @@
   - Reward
   - Time to finish
   - Checkpoints
+- Change language in **config.json** and **html/locales.json**
+- You can overwrite code with money operation in **account_manager.lua** in case, you don't use esx base, and make it your own base-friendly, but keep triggers for client, because if you delete them, you'll break whole script
 
 ### Adding new route for race example pattern:
 - paste this code under last route in your **config.json** file

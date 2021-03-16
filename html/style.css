@@ -1,4 +1,3 @@
-/*box-shadow:0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12),0 2px 4px -1px rgba(0,0,0,0.3)}.containershow{-webkit-box-shadow:0 6px 10px 0 rgba(0,0,0,0.14),0 1px 18px 0 rgba(0,0,0,0.12),0 3px 5px -1px rgba(0,0,0,0.3);*/
 .containershow {
     position: fixed;
     bottom: 1.65%;
@@ -9,9 +8,6 @@
     border-color: black;
     background-color: rgba(10,10,10,0.5);
     z-index: 0;
-    /*
-    clip-path: polygon(18% 80%, 38% 80%, 38% 98.36%, 16% 98.36%);
-    */
 }.containershow * {
     z-index: 0;
 }
@@ -29,7 +25,6 @@
     font-family: "Brush Script MT", Times, cursive;
     font-size: 40px;
     text-align: center;
-    /*padding-left: 30px;*/
 }
 #img {
     height: 18.05%;
@@ -37,13 +32,10 @@
     position: fixed;
     bottom: 1.95%;
     left: 16.15%;
-    /*clip-path: polygon(16% 98.35%, 36% 98.35%, 36% 80.35%, 16% 80.35%);*/
     clip-path: polygon(0% 100%, 100% 100%, 100% 0.5%, 0% 0.5%);
 }
 
-/*toto je pozadie (ten tmavy pruh)*/
 #enterRace {
-    /*background-color: rgba(10,10,10,0.5);*/
     position: fixed;
     top: 15%;
     left: 0;
@@ -62,7 +54,6 @@
     left: 0px;
     opacity: 0.65;
 }
-/*to prepare, je to h2*/
 #enter1 {
     position: relative;
     background-color: rgb(10,10,10);
@@ -76,7 +67,6 @@
     padding-bottom: 0;
     clip-path: polygon(180px 235px, 1500px 235px, 1400px 50px, 80px 50px);
 }
-/*paragraph*/
 #line {
     position: relative;
     width: 100%;
@@ -96,9 +86,6 @@
     margin: 0;
     border-radius: 0;
     clip-path: polygon(100px 60px, 700px 60px, 668px 0, 68px 0);
-    /*margin: 15px;
-    /*margin: 15px;
-    border-radius: 15px;*/
 }
 
 #exitRace {
@@ -156,7 +143,6 @@ div.scroll > div.text {
     table-layout: fixed;
     position: fixed;
     width: 80%;
-    /*line-height: 180%;*/
     background-color: rgba(10, 10, 10, 0.775);
     left: 10%;
     right: 10%;
@@ -170,7 +156,6 @@ th {
 #tabCaption {
     background-color: rgb(249, 166, 32);
     clip-path: inset(2px 0px 2px 0px round 15px 15px 0 0);
-    /*bottom, right, top, left*/
 }
 td:nth-child(1) {
     color: lightslategray;
@@ -179,7 +164,3 @@ td:nth-child(1) {
 td:not(:first-child) {
     border-bottom: 1px solid black;
 }
-/*
-thead th:nth-child(1){
-    width: 5%;
-}*/
